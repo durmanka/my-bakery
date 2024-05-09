@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./validate.css">
+</head>
+<body>
+    <br>
+    <div id="contacts-content" class="contact-frame">
+        <div class="col-5">
+          <h4>Контакти</h4>
+          <div class="contact-logo-text">
+            <a href="index.html" class="logo"
+              ><img src="./images/logo.png" alt="" />My bakery</a>
+            <ul>
+              <li>Героїв Харкова, 160</li>
+              <li>Харків</li>
+              <li>Україна</li>
+              <li><a href="mailto:mybakery@gmail.com">mybakery@gmail.com</a></li>
+              <li><a href="tel:+380123456789">+380 123 456 789</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6">
+          <h4>Написати листа</h4>
+          <form action="./hello.html" method="get">
+            <input type="text" name="name" placeholder="Повне ім'я" pattern="[А-Яа-яA-Za-z ]{3,30}"
+            required />
+            <input type="tel" name="phone" placeholder="Номер телефону" pattern="[0-9 \-\+]{3,30}"
+            required />
+            <input type="email" name="email" placeholder="Електронна пошта" pattern="[А-Яа-яA-Za-z\@\.]{3,30}"
+            required/>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Опис замовлення"></textarea><br>
+            <button type="submit" name="send" class="button">
+              Відправити листа
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

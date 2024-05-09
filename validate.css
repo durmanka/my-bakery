@@ -1,0 +1,21 @@
+
+input:focus:invalid {
+    /* background: pink; */
+    outline: 1px #f00 solid;
+  }
+  input:focus:valid {
+    outline: 1px #0f0 solid;
+  }
+  input:valid {
+    background: white;
+    outline: none;
+  }
+  input:invalid {
+    background: white;
+    outline: 1px #f00 solid;
+  }
+  input:invalid,
+  input:valid {
+    background: white;
+    outline: none;
+  }
